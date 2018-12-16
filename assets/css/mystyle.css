@@ -1,0 +1,124 @@
+body {
+    position: relative;
+    min-height: 100%;
+}
+
+
+.navbar-text {
+    color: white;
+    background-color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.main-container {
+    /* border: 1px solid blue; */
+    position: relative;
+    border-top: 2px solid #cccccc;
+    padding-top: 25px;
+    background-color: lightgray;   /* set background color in case image is not available */
+    background-image: url("../../assets/images/gravel.png");
+}
+
+.main-form {
+    /* border: 1px solid red; */
+    position: relative;
+    color: #777777;
+    background-color:#ffffff;
+    margin: 40px auto;
+    border: 1px solid #dddddd;
+    padding: 5px 5px 5px 13px;
+    height: calc(100vh-120px);
+}
+
+
+.footer-container {
+    /* border: 1px solid blue; */
+    clear: both;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    color: lightgray;
+    text-align: center;
+    font-size: 14px;
+    background-color: #666666;
+    margin: 0px auto;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 15px;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.heading_underlined {
+    border-bottom: 2px solid #cccccc;
+    color: #4aaaa5;
+    padding: 5px 0px 10px 0px;
+}
+
+/* Default setting for full screen */
+.mypicture {
+    float: left;
+    margin: 0px 30px 0px 0px;
+    height: 150px;
+    width: 250px;
+    content: url("../images/PaulPictureLg.jpg");
+}
+
+.project-image-row {
+    position: relative;
+}
+
+.projectimage {
+    height: 200px;
+    width: 240px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 0px;
+    padding: 0px;
+    float: left;
+}
+
+.projectimagelabel {
+    height: 40px;
+    width: 240px;
+    position: relative;
+    bottom: 68px;
+    left: 0px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 12px;
+}
+
+
+@media screen and (max-width: 980px) {
+    .mypicture {
+        height: 150px;
+        width: 250px;
+        content: url("../images/PaulPictureLg.jpg");
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .mypicture {
+        height: 100px;
+        width: 167px;
+        content: url("../images/CalvinMd.jpg");
+    }
+  }
+
+@media screen and (max-width: 640px) {
+    .mypicture {
+        height: 75px;
+        width: 126px;
+        content: url("../images/CalvinSm.jpg");
+    }
+  }
+
