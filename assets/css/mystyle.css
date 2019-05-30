@@ -132,7 +132,7 @@ h1, h2, h3, h4 {
     .mypicture {
         height: 100px;
         width: 167px;
-        content: url("../images/CalvinMd.jpg");
+        content: url("../images/PaulPictureMd.jpg");
     }
     .main-container {
         padding-top: 10px;
@@ -146,7 +146,7 @@ h1, h2, h3, h4 {
     .mypicture {
         height: 75px;
         width: 126px;
-        content: url("../images/CalvinSm.jpg");
+        content: url("../images/PaulPictureSm.jpg");
     }
     .main-container {
         padding-top: 5px;
